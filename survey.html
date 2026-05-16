@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>U-TRAX Survey</title>
+  <meta
+    name="description"
+    content="U-TRAX survey page with a dedicated external Qualtrics link."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="survey-page">
+  <!--
+    SURVEY PAGE
+
+    Replace the Qualtrics URL below with the real survey link.
+    This page is intentionally separate so you can keep the survey isolated,
+    clean, and easy to update without changing the homepage.
+  -->
+
+  <header class="site-header">
+    <div class="wrap nav-row">
+      <a class="brand" href="index.html" aria-label="Back to U-TRAX home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-copy">
+          <span class="brand-name">U-TRAX</span>
+          <span class="brand-subtitle">Survey</span>
+        </span>
+      </a>
+
+      <a class="btn btn-light" href="index.html">Back to Home</a>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <div class="wrap">
+      <section class="page-panel">
+        <p class="section-kicker">Survey</p>
+        <h1>Dedicated survey page.</h1>
+        <p>
+          Use this page for the external survey link. Keep the homepage focused on product,
+          positioning, and credibility, and keep form traffic separate here.
+        </p>
+
+        <div class="page-links">
+          <!-- SURVEY LINK -->
+          <a class="btn btn-dark" href="https://YOUR-QUALTRICS-SURVEY-LINK" target="_blank" rel="noreferrer">
+            Open Qualtrics Survey
+          </a>
+
+          <a class="btn btn-light" href="index.html">
+            Return to Home
+          </a>
+        </div>
+
+        <div class="mini-grid" style="margin-top:28px;">
+          <article class="spec">
+            <strong>What goes here</strong>
+            <span>One clear call-to-action to the external Qualtrics survey.</span>
+          </article>
+          <article class="spec">
+            <strong>What stays off this page</strong>
+            <span>Do not add extra forms or distractions unless needed.</span>
+          </article>
+          <article class="spec">
+            <strong>Editing tip</strong>
+            <span>Replace only the Qualtrics URL if the survey changes.</span>
+          </article>
+          <article class="spec">
+            <strong>Cloudflare friendly</strong>
+            <span>This is still a static page. No build step required.</span>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
