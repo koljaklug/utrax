@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>U-TRAX — Precision Skeletal Traction</title>
   <meta
     name="description"
     content="U-TRAX is a precision-controlled skeletal traction platform for cervical spine and long bone procedures."
   />
+
+  <!--
+    EDIT HERE:
+    - Replace the title and description if the positioning changes.
+    - Add a favicon here if you have one:
+      <link rel="icon" href="assets/favicon.ico" />
+    - Keep this file static for Cloudflare Pages.
+  -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,12 +27,38 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!--
+    TOP-LEVEL EDIT NOTES
+
+    Replace content in these areas:
+    1) Brand name / logo area in the header
+    2) Hero copy
+    3) Product render / hero mockup
+    4) Feature cards and clinical claims
+    5) Workflow diagram placeholder
+    6) Application images
+    7) Contact Qualtrics URL
+    8) Survey page link in the bottom section
+
+    Image placeholders are marked visibly in the page as dashed boxes.
+    You can replace any placeholder box with an <img> tag like:
+      <img src="assets/hero-render.png" alt="U-TRAX hero render" />
+  -->
+
   <header class="site-header">
     <div class="wrap nav-row">
       <a class="brand" href="#top" aria-label="U-TRAX home">
+        <!-- BRAND MARK / LOGO PLACEHOLDER
+             Replace this span with an image if you have a logo file:
+             <img src="assets/logo.svg" alt="U-TRAX logo" class="brand-logo" />
+        -->
         <span class="brand-mark" aria-hidden="true"></span>
-        <span>U-TRAX</span>
+        <span class="brand-copy">
+          <span class="brand-name">U-TRAX</span>
+          <span class="brand-subtitle">Precision Skeletal Traction</span>
+        </span>
       </a>
 
       <nav class="nav" aria-label="Primary">
@@ -39,14 +74,21 @@
   </header>
 
   <main id="top">
+    <!-- HERO -->
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Prototype-stage medtech platform</p>
-          <h1><span>Precision</span> skeletal traction.</h1>
+
+          <h1>
+            <span>Precision</span>
+            skeletal traction.
+          </h1>
+
           <p class="lede">
             A digitally controlled platform designed for cervical spine and long bone procedures.
           </p>
+
           <p class="sublede">
             U-TRAX is being developed to support controlled force application, dynamic positioning,
             and real-time feedback within the surgical environment.
@@ -58,53 +100,69 @@
           </div>
 
           <div class="chip-row" aria-label="Key features">
-            <div class="chip">
+            <article class="chip">
               <span class="chip-icon">F</span>
               <div>
                 <strong>Controlled force</strong>
                 <span>Digital traction adjustment with live monitoring.</span>
               </div>
-            </div>
+            </article>
 
-            <div class="chip">
+            <article class="chip">
               <span class="chip-icon chip-icon-purple">P</span>
               <div>
                 <strong>Multi-axis positioning</strong>
                 <span>Motorized yaw and pitch control.</span>
               </div>
-            </div>
+            </article>
 
-            <div class="chip">
+            <article class="chip">
               <span class="chip-icon chip-icon-red">R</span>
               <div>
                 <strong>Real-time feedback</strong>
                 <span>Visible procedural state at the point of use.</span>
               </div>
-            </div>
+            </article>
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Hero visual placeholder">
+        <figure class="hero-visual" aria-label="Hero visual placeholder">
           <div class="visual-top">
             <span class="badge badge-dark">U-TRAX</span>
-            <span class="badge badge-light">Product render placeholder</span>
+            <span class="badge badge-light">Insert hero render here</span>
           </div>
 
+          <!-- HERO IMAGE / MOCKUP PLACEHOLDER
+               Replace this entire visual-stage block with an image if preferred.
+               Example:
+                 <img src="assets/hero-render.png" alt="U-TRAX product render" class="visual-image" />
+          -->
           <div class="visual-stage">
             <div class="device-line" aria-hidden="true"></div>
+
             <div class="visual-card">
               <strong>Place a product render here</strong>
-              <span>Use a clean orthographic render, OR scene, or simplified device silhouette.</span>
+              <span>
+                Use a clean orthographic render, OR scene, simplified device silhouette,
+                or branded product mockup.
+              </span>
             </div>
 
-            <div class="float-note note-a"><span></span>Live force</div>
-            <div class="float-note note-b"><span></span>Angle control</div>
-            <div class="float-note note-c"><span></span>OR workflow</div>
+            <div class="float-note note-a">
+              <span></span>Live force
+            </div>
+            <div class="float-note note-b">
+              <span></span>Angle control
+            </div>
+            <div class="float-note note-c">
+              <span></span>OR workflow
+            </div>
           </div>
-        </div>
+        </figure>
       </div>
     </section>
 
+    <!-- STATEMENT -->
     <section class="section">
       <div class="wrap">
         <div class="statement">
@@ -120,6 +178,7 @@
       </div>
     </section>
 
+    <!-- PLATFORM -->
     <section class="section" id="platform">
       <div class="wrap">
         <header class="section-head">
@@ -135,7 +194,10 @@
           <article class="card card-blue">
             <div class="card-icon">F</div>
             <h3>Controlled force</h3>
-            <p>Motorized traction adjustment with live force feedback. Designed to support more consistent force application than manual systems.</p>
+            <p>
+              Motorized traction adjustment with live force feedback. Designed to support more
+              consistent force application than manual systems.
+            </p>
             <div class="pill-row">
               <span class="pill pill-blue">Live monitoring</span>
               <span class="pill">Digital control</span>
@@ -145,7 +207,10 @@
           <article class="card card-purple">
             <div class="card-icon card-icon-purple">P</div>
             <h3>Dynamic position</h3>
-            <p>Motorized yaw and pitch control gives the team a direct way to manage alignment during the procedure.</p>
+            <p>
+              Motorized yaw and pitch control gives the team a direct way to manage alignment
+              during the procedure.
+            </p>
             <div class="pill-row">
               <span class="pill pill-purple">Yaw</span>
               <span class="pill pill-purple">Pitch</span>
@@ -155,7 +220,10 @@
           <article class="card card-red">
             <div class="card-icon card-icon-red">R</div>
             <h3>Real-time status</h3>
-            <p>Live angle and force visibility helps convert hidden mechanical state into visible procedural information.</p>
+            <p>
+              Live angle and force visibility helps convert hidden mechanical state into visible
+              procedural information.
+            </p>
             <div class="pill-row">
               <span class="pill pill-red">Live force</span>
               <span class="pill pill-red">Angle feedback</span>
@@ -165,7 +233,10 @@
           <article class="card card-green">
             <div class="card-icon card-icon-green">O</div>
             <h3>OR integration</h3>
-            <p>Designed to mount to the surgical table and keep the device in the clinical workflow rather than outside it.</p>
+            <p>
+              Designed to mount to the surgical table and keep the device in the clinical workflow
+              rather than outside it.
+            </p>
             <div class="pill-row">
               <span class="pill pill-green">Table-mounted</span>
               <span class="pill pill-green">Procedure-ready</span>
@@ -175,7 +246,10 @@
           <article class="card card-orange">
             <div class="card-icon card-icon-orange">S</div>
             <h3>Safety-minded</h3>
-            <p>Enclosed moving elements, external emergency stop, and consolidated electronics support a cleaner procedural footprint.</p>
+            <p>
+              Enclosed moving elements, external emergency stop, and consolidated electronics support
+              a cleaner procedural footprint.
+            </p>
             <div class="pill-row">
               <span class="pill pill-orange">Enclosed</span>
               <span class="pill pill-orange">Emergency stop</span>
@@ -185,7 +259,10 @@
           <article class="card">
             <div class="card-icon card-icon-neutral">U</div>
             <h3>Usable control</h3>
-            <p>A touchscreen interface centralizes force, angle, and operating state into one interaction model.</p>
+            <p>
+              A touchscreen interface centralizes force, angle, and operating state into one
+              interaction model.
+            </p>
             <div class="pill-row">
               <span class="pill">Touchscreen</span>
               <span class="pill">Workflow UI</span>
@@ -195,8 +272,9 @@
       </div>
     </section>
 
-    <section class="banner">
-      <div class="wrap banner-row" aria-label="Feature highlights">
+    <!-- BAND -->
+    <section class="banner" aria-label="Feature highlights">
+      <div class="wrap banner-row">
         <span class="badge badge-soft">Controlled force</span>
         <span class="badge badge-soft">Motorized yaw</span>
         <span class="badge badge-soft">Motorized pitch</span>
@@ -205,6 +283,7 @@
       </div>
     </section>
 
+    <!-- WORKFLOW -->
     <section class="section" id="workflow">
       <div class="wrap split-grid">
         <div>
@@ -216,26 +295,31 @@
           </p>
 
           <div class="spec-grid">
-            <div class="spec">
+            <article class="spec">
               <strong>Mount</strong>
               <span>Clamp to table rails near the patient’s head.</span>
-            </div>
-            <div class="spec">
+            </article>
+            <article class="spec">
               <strong>Connect</strong>
               <span>Attach to the fixation interface and initialize the system.</span>
-            </div>
-            <div class="spec">
+            </article>
+            <article class="spec">
               <strong>Set</strong>
               <span>Select target force and monitor live values.</span>
-            </div>
-            <div class="spec">
+            </article>
+            <article class="spec">
               <strong>Adjust</strong>
               <span>Modify force, yaw, and pitch through the control interface.</span>
-            </div>
+            </article>
           </div>
         </div>
 
-        <div class="diagram">
+        <figure class="diagram" aria-label="Workflow diagram placeholder">
+          <!-- WORKFLOW / DIAGRAM PLACEHOLDER
+               Replace this with a workflow image or diagram if desired.
+               Example:
+                 <img src="assets/workflow-diagram.png" alt="U-TRAX workflow diagram" class="diagram-image" />
+          -->
           <div class="halo halo-a" aria-hidden="true"></div>
           <div class="halo halo-b" aria-hidden="true"></div>
           <div class="halo halo-c" aria-hidden="true"></div>
@@ -247,12 +331,15 @@
 
           <div class="diagram-card">
             <strong>Workflow mockup space</strong>
-            <span>Place a simple OR setup diagram or a step-by-step visual here.</span>
+            <span>
+              Place a simple OR setup diagram, step-by-step flow, or a photo of the device in use.
+            </span>
           </div>
-        </div>
+        </figure>
       </div>
     </section>
 
+    <!-- APPLICATIONS -->
     <section class="section" id="applications">
       <div class="wrap">
         <header class="section-head">
@@ -268,30 +355,57 @@
           <article class="card card-tall card-blue">
             <div class="card-icon">C</div>
             <h3>Cervical spine</h3>
-            <p>Controlled traction and positioning support for spine trauma and surgical workflows where force, angle, and real-time state matter.</p>
+            <p>
+              Controlled traction and positioning support for spine trauma and surgical workflows
+              where force, angle, and real-time state matter.
+            </p>
             <div class="pill-row">
               <span class="pill pill-blue">Spine</span>
               <span class="pill pill-blue">Trauma</span>
               <span class="pill pill-blue">Reduction support</span>
             </div>
-            <p class="small-note">Suggested visual: cervical application render or simplified anatomical diagram.</p>
+            <p class="small-note">
+              Suggested visual: cervical application render or simplified anatomical diagram.
+            </p>
+
+            <!-- APPLICATION IMAGE PLACEHOLDER -->
+            <div class="media-slot">
+              <strong>Insert cervical image here</strong>
+              <span>
+                Use a render, workflow photo, or schematic. You can replace this box with an image tag.
+              </span>
+            </div>
           </article>
 
           <article class="card card-tall card-orange">
             <div class="card-icon card-icon-orange">L</div>
             <h3>Long bone</h3>
-            <p>Traction support for orthopedic trauma workflows where alignment and controlled force application are central to procedural execution.</p>
+            <p>
+              Traction support for orthopedic trauma workflows where alignment and controlled force
+              application are central to procedural execution.
+            </p>
             <div class="pill-row">
               <span class="pill pill-orange">Femur</span>
               <span class="pill pill-orange">Tibia</span>
               <span class="pill pill-orange">Trauma</span>
             </div>
-            <p class="small-note">Suggested visual: long-bone traction workflow diagram or platform extension concept.</p>
+            <p class="small-note">
+              Suggested visual: long-bone traction workflow diagram or platform extension concept.
+            </p>
+
+            <!-- APPLICATION IMAGE PLACEHOLDER -->
+            <div class="media-slot">
+              <strong>Insert long-bone image here</strong>
+              <span>
+                Use a render, clinical diagram, or simplified use-case illustration.
+              </span>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- EVIDENCE / ENGINEERING -->
     <section class="section section-dark" id="evidence">
       <div class="wrap">
         <header class="section-head section-head-dark">
@@ -306,15 +420,24 @@
         <div class="three-up">
           <article class="dark-card">
             <h3>Actuation</h3>
-            <p>Bilateral linear actuation and motorized angular control create the mechanical basis for controlled traction.</p>
+            <p>
+              Bilateral linear actuation and motorized angular control create the mechanical basis
+              for controlled traction.
+            </p>
           </article>
           <article class="dark-card">
             <h3>Sensing</h3>
-            <p>Load-cell force sensing and inertial measurement convert device state into actionable feedback.</p>
+            <p>
+              Load-cell force sensing and inertial measurement convert device state into actionable
+              feedback.
+            </p>
           </article>
           <article class="dark-card">
             <h3>Control</h3>
-            <p>Closed-loop logic supports smoother adjustment and reduces uncontrolled overshoot in the prototype architecture.</p>
+            <p>
+              Closed-loop logic supports smoother adjustment and reduces uncontrolled overshoot in the
+              prototype architecture.
+            </p>
           </article>
         </div>
 
@@ -335,6 +458,7 @@
       </div>
     </section>
 
+    <!-- DEVELOPMENT STATUS -->
     <section class="section">
       <div class="wrap">
         <header class="section-head">
@@ -347,25 +471,28 @@
         </header>
 
         <div class="status-grid">
-          <div class="status-card">
+          <article class="status-card">
             <span class="status-dot status-blue"></span>
             <h3>Prototype</h3>
             <p>Use this instead of commercial-ready language.</p>
-          </div>
-          <div class="status-card">
+          </article>
+
+          <article class="status-card">
             <span class="status-dot status-purple"></span>
             <h3>Proof-of-concept</h3>
             <p>Reference the research, but avoid clinical superiority claims.</p>
-          </div>
-          <div class="status-card">
+          </article>
+
+          <article class="status-card">
             <span class="status-dot status-green"></span>
             <h3>Pre-commercial</h3>
             <p>Clear enough for surgeons, conservative enough for regulatory review.</p>
-          </div>
+          </article>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT / QUALTRICS -->
     <section class="section" id="contact">
       <div class="wrap contact">
         <div class="split-grid">
@@ -377,53 +504,67 @@
             </p>
 
             <div class="mini-grid">
-              <div class="spec">
+              <article class="spec">
                 <strong>Surgeons</strong>
                 <span>Workflow review and clinical feedback.</span>
-              </div>
-              <div class="spec">
+              </article>
+              <article class="spec">
                 <strong>Investors</strong>
                 <span>Milestones, market, and development path.</span>
-              </div>
-              <div class="spec">
+              </article>
+              <article class="spec">
                 <strong>Partners</strong>
                 <span>Prototyping, manufacturing, and validation.</span>
-              </div>
-              <div class="spec">
+              </article>
+              <article class="spec">
                 <strong>Summit follow-up</strong>
                 <span>A clean path after first contact.</span>
-              </div>
+              </article>
             </div>
           </div>
 
-          <form class="form" onsubmit="return false;">
-            <label>
-              <span>Name</span>
-              <input type="text" placeholder="Your name" />
-            </label>
+          <div class="form-card">
+            <h3>Contact form</h3>
+            <p>
+              This button should link to your external Qualtrics form.
+            </p>
 
-            <label>
-              <span>Organization</span>
-              <input type="text" placeholder="Hospital, fund, or company" />
-            </label>
+            <!-- QUALTRICS CONTACT LINK
+                 Replace the URL below with your real Qualtrics contact form URL.
+                 Example:
+                   https://yourorg.qualtrics.com/jfe/form/SV_XXXXXXXXXXXXXXX
+            -->
+            <a class="btn btn-dark btn-full" href="https://YOUR-QUALTRICS-CONTACT-LINK" target="_blank" rel="noreferrer">
+              Open Qualtrics Contact Form
+            </a>
 
-            <label>
-              <span>Email</span>
-              <input type="email" placeholder="name@domain.com" />
-            </label>
+            <div class="callout">
+              <strong>Note</strong>
+              <p>
+                If you do not want an on-site form, keep this as an external link only.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <label>
-              <span>Interest</span>
-              <input type="text" placeholder="Clinical / investor / partnership" />
-            </label>
+    <!-- BOTTOM SURVEY / PAGE LINK -->
+    <section class="section section-survey-cta">
+      <div class="wrap">
+        <div class="survey-cta">
+          <div>
+            <p class="section-kicker">Survey</p>
+            <h2>Dedicated survey page.</h2>
+            <p>
+              This link goes to a separate page so you can keep the survey isolated and easy to update.
+            </p>
+          </div>
 
-            <label>
-              <span>Message</span>
-              <textarea placeholder="Tell us what you are looking for."></textarea>
-            </label>
-
-            <button class="btn btn-dark btn-full" type="submit">Send Inquiry</button>
-          </form>
+          <!-- SURVEY PAGE LINK -->
+          <a class="btn btn-light" href="survey.html">
+            Open Survey Page
+          </a>
         </div>
       </div>
     </section>
@@ -437,6 +578,7 @@
       </div>
       <div>Problem · Platform · Workflow · Evidence · Contact</div>
     </div>
+
     <div class="wrap footer-fineprint">
       Information presented on this site is intended for professional discussion only. U-TRAX is
       currently under development and is not presented here as a cleared or approved commercial
