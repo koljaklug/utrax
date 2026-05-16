@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>K — Biomedical Engineer & Product Manager</title>
+
+  <meta
+    name="description"
+    content="Biomedical engineer and product manager building thoughtful healthcare and AI-enabled products."
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="site-header">
+    <div class="container nav">
+
+      <a href="#" class="logo">
+        K
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero">
+    <div class="container hero-content">
+
+      <p class="eyebrow">
+        Biomedical Engineer · Product Manager
+      </p>
+
+      <h1>
+        Building thoughtful products at the intersection of healthcare,
+        engineering, and AI.
+      </h1>
+
+      <p class="hero-text">
+        I focus on systems, product strategy, and user-centered execution —
+        translating complex technical problems into practical, scalable solutions.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          View Projects
+        </a>
+
+        <a href="/resume.pdf" class="btn btn-secondary">
+          Resume
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       ABOUT
+  ========================== -->
+
+  <section id="about" class="section">
+    <div class="container narrow">
+
+      <div class="section-header">
+        <p class="section-label">About</p>
+        <h2>Technical systems thinking with product execution.</h2>
+      </div>
+
+      <p class="body-large">
+        My work spans biomedical engineering, product management, and applied AI.
+        I enjoy building products that require balancing technical depth,
+        usability, and operational clarity.
+      </p>
+
+      <p>
+        I’m particularly interested in healthcare tooling, intelligent workflows,
+        and infrastructure that helps teams move faster without sacrificing quality.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       PROJECTS
+  ========================== -->
+
+  <section id="projects" class="section section-alt">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="section-label">Projects</p>
+        <h2>Selected work.</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="card">
+          <p class="card-tag">Healthcare AI</p>
+
+          <h3>Clinical Workflow Platform</h3>
+
+          <p>
+            Designed systems and product flows for AI-assisted clinical operations
+            focused on reducing friction in documentation and review pipelines.
+          </p>
+
+          <a href="#" class="text-link">
+            Case Study →
+          </a>
+        </article>
+
+        <article class="card">
+          <p class="card-tag">Product Systems</p>
+
+          <h3>Internal Operations Toolkit</h3>
+
+          <p>
+            Built operational tooling and product specifications to improve
+            coordination between technical, regulatory, and product teams.
+          </p>
+
+          <a href="#" class="text-link">
+            Learn More →
+          </a>
+        </article>
+
+        <article class="card">
+          <p class="card-tag">Biomedical Engineering</p>
+
+          <h3>Device Development Support</h3>
+
+          <p>
+            Contributed to engineering workflows involving medical device systems,
+            testing processes, and technical documentation.
+          </p>
+
+          <a href="#" class="text-link">
+            Details →
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       EXPERIENCE
+  ========================== -->
+
+  <section id="experience" class="section">
+    <div class="container narrow">
+
+      <div class="section-header">
+        <p class="section-label">Experience</p>
+        <h2>Background.</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-top">
+            <h3>Product Management</h3>
+            <span>Recent</span>
+          </div>
+
+          <p>
+            Product strategy, workflow design, systems coordination, and
+            technical communication across cross-functional teams.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-top">
+            <h3>Biomedical Engineering</h3>
+            <span>Ongoing</span>
+          </div>
+
+          <p>
+            Engineering support, medical technology systems, testing,
+            documentation, and process optimization.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT
+  ========================== -->
+
+  <section id="contact" class="section section-alt">
+    <div class="container narrow center">
+
+      <p class="section-label">Contact</p>
+
+      <h2>
+        Open to interesting problems and collaborations.
+      </h2>
+
+      <p class="contact-text">
+        Reach out for product, engineering, healthcare, or AI-related work.
+      </p>
+
+      <a href="mailto:you@example.com" class="btn btn-primary">
+        Contact Me
+      </a>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <p>
+        © 2026 K
+      </p>
+
+      <div class="footer-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">X</a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
+
