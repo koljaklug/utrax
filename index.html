@@ -1,20 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>K — Biomedical Engineer & Product Manager</title>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U-TRAX — Precision Skeletal Traction</title>
   <meta
     name="description"
-    content="Biomedical engineer and product manager building thoughtful healthcare and AI-enabled products."
+    content="U-TRAX is a precision-controlled skeletal traction platform for cervical spine and long bone procedures."
   />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
@@ -22,240 +18,430 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-  <!-- =========================
-       HEADER
-  ========================== -->
-
   <header class="site-header">
-    <div class="container nav">
-
-      <a href="#" class="logo">
-        K
+    <div class="wrap nav-row">
+      <a class="brand" href="#top" aria-label="U-TRAX home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>U-TRAX</span>
       </a>
 
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#platform">Platform</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#applications">Applications</a>
+        <a href="#evidence">Evidence</a>
         <a href="#contact">Contact</a>
       </nav>
 
+      <a class="btn btn-dark" href="#contact">Request Meeting</a>
     </div>
   </header>
 
-  <!-- =========================
-       HERO
-  ========================== -->
-
-  <section class="hero">
-    <div class="container hero-content">
-
-      <p class="eyebrow">
-        Biomedical Engineer · Product Manager
-      </p>
-
-      <h1>
-        Building thoughtful products at the intersection of healthcare,
-        engineering, and AI.
-      </h1>
-
-      <p class="hero-text">
-        I focus on systems, product strategy, and user-centered execution —
-        translating complex technical problems into practical, scalable solutions.
-      </p>
-
-      <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">
-          View Projects
-        </a>
-
-        <a href="/resume.pdf" class="btn btn-secondary">
-          Resume
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- =========================
-       ABOUT
-  ========================== -->
-
-  <section id="about" class="section">
-    <div class="container narrow">
-
-      <div class="section-header">
-        <p class="section-label">About</p>
-        <h2>Technical systems thinking with product execution.</h2>
-      </div>
-
-      <p class="body-large">
-        My work spans biomedical engineering, product management, and applied AI.
-        I enjoy building products that require balancing technical depth,
-        usability, and operational clarity.
-      </p>
-
-      <p>
-        I’m particularly interested in healthcare tooling, intelligent workflows,
-        and infrastructure that helps teams move faster without sacrificing quality.
-      </p>
-
-    </div>
-  </section>
-
-  <!-- =========================
-       PROJECTS
-  ========================== -->
-
-  <section id="projects" class="section section-alt">
-    <div class="container">
-
-      <div class="section-header">
-        <p class="section-label">Projects</p>
-        <h2>Selected work.</h2>
-      </div>
-
-      <div class="project-grid">
-
-        <article class="card">
-          <p class="card-tag">Healthcare AI</p>
-
-          <h3>Clinical Workflow Platform</h3>
-
-          <p>
-            Designed systems and product flows for AI-assisted clinical operations
-            focused on reducing friction in documentation and review pipelines.
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Prototype-stage medtech platform</p>
+          <h1><span>Precision</span> skeletal traction.</h1>
+          <p class="lede">
+            A digitally controlled platform designed for cervical spine and long bone procedures.
+          </p>
+          <p class="sublede">
+            U-TRAX is being developed to support controlled force application, dynamic positioning,
+            and real-time feedback within the surgical environment.
           </p>
 
-          <a href="#" class="text-link">
-            Case Study →
-          </a>
-        </article>
-
-        <article class="card">
-          <p class="card-tag">Product Systems</p>
-
-          <h3>Internal Operations Toolkit</h3>
-
-          <p>
-            Built operational tooling and product specifications to improve
-            coordination between technical, regulatory, and product teams.
-          </p>
-
-          <a href="#" class="text-link">
-            Learn More →
-          </a>
-        </article>
-
-        <article class="card">
-          <p class="card-tag">Biomedical Engineering</p>
-
-          <h3>Device Development Support</h3>
-
-          <p>
-            Contributed to engineering workflows involving medical device systems,
-            testing processes, and technical documentation.
-          </p>
-
-          <a href="#" class="text-link">
-            Details →
-          </a>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- =========================
-       EXPERIENCE
-  ========================== -->
-
-  <section id="experience" class="section">
-    <div class="container narrow">
-
-      <div class="section-header">
-        <p class="section-label">Experience</p>
-        <h2>Background.</h2>
-      </div>
-
-      <div class="timeline">
-
-        <div class="timeline-item">
-          <div class="timeline-top">
-            <h3>Product Management</h3>
-            <span>Recent</span>
+          <div class="actions">
+            <a class="btn btn-dark" href="#contact">Clinical Interest</a>
+            <a class="btn btn-light" href="#evidence">View Evidence</a>
           </div>
 
-          <p>
-            Product strategy, workflow design, systems coordination, and
-            technical communication across cross-functional teams.
-          </p>
+          <div class="chip-row" aria-label="Key features">
+            <div class="chip">
+              <span class="chip-icon">F</span>
+              <div>
+                <strong>Controlled force</strong>
+                <span>Digital traction adjustment with live monitoring.</span>
+              </div>
+            </div>
+
+            <div class="chip">
+              <span class="chip-icon chip-icon-purple">P</span>
+              <div>
+                <strong>Multi-axis positioning</strong>
+                <span>Motorized yaw and pitch control.</span>
+              </div>
+            </div>
+
+            <div class="chip">
+              <span class="chip-icon chip-icon-red">R</span>
+              <div>
+                <strong>Real-time feedback</strong>
+                <span>Visible procedural state at the point of use.</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="timeline-item">
-          <div class="timeline-top">
-            <h3>Biomedical Engineering</h3>
-            <span>Ongoing</span>
+        <div class="hero-visual" aria-label="Hero visual placeholder">
+          <div class="visual-top">
+            <span class="badge badge-dark">U-TRAX</span>
+            <span class="badge badge-light">Product render placeholder</span>
           </div>
 
-          <p>
-            Engineering support, medical technology systems, testing,
-            documentation, and process optimization.
+          <div class="visual-stage">
+            <div class="device-line" aria-hidden="true"></div>
+            <div class="visual-card">
+              <strong>Place a product render here</strong>
+              <span>Use a clean orthographic render, OR scene, or simplified device silhouette.</span>
+            </div>
+
+            <div class="float-note note-a"><span></span>Live force</div>
+            <div class="float-note note-b"><span></span>Angle control</div>
+            <div class="float-note note-c"><span></span>OR workflow</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="statement">
+          <p class="statement-quote">
+            The product is not just a traction device.
+            <span>It is a new interface for traction.</span>
+          </p>
+          <p class="statement-text">
+            A surgeon should be able to set force, understand position, and adjust the system without
+            turning a precise procedure into a mechanical assembly exercise.
           </p>
         </div>
-
       </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="section" id="platform">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-kicker">Platform</p>
+          <h2>Designed around control.</h2>
+          <p>
+            The homepage stays simple. The technical depth lives underneath: actuation, sensing,
+            feedback, controls, and a surgical user interface.
+          </p>
+        </header>
 
-  <!-- =========================
-       CONTACT
-  ========================== -->
+        <div class="card-grid">
+          <article class="card card-blue">
+            <div class="card-icon">F</div>
+            <h3>Controlled force</h3>
+            <p>Motorized traction adjustment with live force feedback. Designed to support more consistent force application than manual systems.</p>
+            <div class="pill-row">
+              <span class="pill pill-blue">Live monitoring</span>
+              <span class="pill">Digital control</span>
+            </div>
+          </article>
 
-  <section id="contact" class="section section-alt">
-    <div class="container narrow center">
+          <article class="card card-purple">
+            <div class="card-icon card-icon-purple">P</div>
+            <h3>Dynamic position</h3>
+            <p>Motorized yaw and pitch control gives the team a direct way to manage alignment during the procedure.</p>
+            <div class="pill-row">
+              <span class="pill pill-purple">Yaw</span>
+              <span class="pill pill-purple">Pitch</span>
+            </div>
+          </article>
 
-      <p class="section-label">Contact</p>
+          <article class="card card-red">
+            <div class="card-icon card-icon-red">R</div>
+            <h3>Real-time status</h3>
+            <p>Live angle and force visibility helps convert hidden mechanical state into visible procedural information.</p>
+            <div class="pill-row">
+              <span class="pill pill-red">Live force</span>
+              <span class="pill pill-red">Angle feedback</span>
+            </div>
+          </article>
 
-      <h2>
-        Open to interesting problems and collaborations.
-      </h2>
+          <article class="card card-green">
+            <div class="card-icon card-icon-green">O</div>
+            <h3>OR integration</h3>
+            <p>Designed to mount to the surgical table and keep the device in the clinical workflow rather than outside it.</p>
+            <div class="pill-row">
+              <span class="pill pill-green">Table-mounted</span>
+              <span class="pill pill-green">Procedure-ready</span>
+            </div>
+          </article>
 
-      <p class="contact-text">
-        Reach out for product, engineering, healthcare, or AI-related work.
-      </p>
+          <article class="card card-orange">
+            <div class="card-icon card-icon-orange">S</div>
+            <h3>Safety-minded</h3>
+            <p>Enclosed moving elements, external emergency stop, and consolidated electronics support a cleaner procedural footprint.</p>
+            <div class="pill-row">
+              <span class="pill pill-orange">Enclosed</span>
+              <span class="pill pill-orange">Emergency stop</span>
+            </div>
+          </article>
 
-      <a href="mailto:you@example.com" class="btn btn-primary">
-        Contact Me
-      </a>
+          <article class="card">
+            <div class="card-icon card-icon-neutral">U</div>
+            <h3>Usable control</h3>
+            <p>A touchscreen interface centralizes force, angle, and operating state into one interaction model.</p>
+            <div class="pill-row">
+              <span class="pill">Touchscreen</span>
+              <span class="pill">Workflow UI</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="banner">
+      <div class="wrap banner-row" aria-label="Feature highlights">
+        <span class="badge badge-soft">Controlled force</span>
+        <span class="badge badge-soft">Motorized yaw</span>
+        <span class="badge badge-soft">Motorized pitch</span>
+        <span class="badge badge-soft">Live feedback</span>
+        <span class="badge badge-soft">Table-mounted workflow</span>
+      </div>
+    </section>
 
-  <!-- =========================
-       FOOTER
-  ========================== -->
+    <section class="section" id="workflow">
+      <div class="wrap split-grid">
+        <div>
+          <p class="section-kicker">Workflow</p>
+          <h2>Built for the operating room.</h2>
+          <p class="section-text">
+            U-TRAX should feel like part of the surgical environment: mounted, visible, controllable,
+            and ready to support a procedural sequence.
+          </p>
+
+          <div class="spec-grid">
+            <div class="spec">
+              <strong>Mount</strong>
+              <span>Clamp to table rails near the patient’s head.</span>
+            </div>
+            <div class="spec">
+              <strong>Connect</strong>
+              <span>Attach to the fixation interface and initialize the system.</span>
+            </div>
+            <div class="spec">
+              <strong>Set</strong>
+              <span>Select target force and monitor live values.</span>
+            </div>
+            <div class="spec">
+              <strong>Adjust</strong>
+              <span>Modify force, yaw, and pitch through the control interface.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="diagram">
+          <div class="halo halo-a" aria-hidden="true"></div>
+          <div class="halo halo-b" aria-hidden="true"></div>
+          <div class="halo halo-c" aria-hidden="true"></div>
+
+          <div class="floating-label label-a">Table-mounted</div>
+          <div class="floating-label label-b">Touchscreen control</div>
+          <div class="floating-label label-c">Force sensing</div>
+          <div class="floating-label label-d">Angle feedback</div>
+
+          <div class="diagram-card">
+            <strong>Workflow mockup space</strong>
+            <span>Place a simple OR setup diagram or a step-by-step visual here.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="applications">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-kicker">Clinical focus</p>
+          <h2>Two initial use cases.</h2>
+          <p>
+            The public site can stay broad while still being specific enough for surgeons and investors
+            to understand the first clinical lanes.
+          </p>
+        </header>
+
+        <div class="two-up">
+          <article class="card card-tall card-blue">
+            <div class="card-icon">C</div>
+            <h3>Cervical spine</h3>
+            <p>Controlled traction and positioning support for spine trauma and surgical workflows where force, angle, and real-time state matter.</p>
+            <div class="pill-row">
+              <span class="pill pill-blue">Spine</span>
+              <span class="pill pill-blue">Trauma</span>
+              <span class="pill pill-blue">Reduction support</span>
+            </div>
+            <p class="small-note">Suggested visual: cervical application render or simplified anatomical diagram.</p>
+          </article>
+
+          <article class="card card-tall card-orange">
+            <div class="card-icon card-icon-orange">L</div>
+            <h3>Long bone</h3>
+            <p>Traction support for orthopedic trauma workflows where alignment and controlled force application are central to procedural execution.</p>
+            <div class="pill-row">
+              <span class="pill pill-orange">Femur</span>
+              <span class="pill pill-orange">Tibia</span>
+              <span class="pill pill-orange">Trauma</span>
+            </div>
+            <p class="small-note">Suggested visual: long-bone traction workflow diagram or platform extension concept.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="evidence">
+      <div class="wrap">
+        <header class="section-head section-head-dark">
+          <p class="section-kicker section-kicker-light">Engineering foundation</p>
+          <h2>The simplicity is intentional. The engineering is not simple.</h2>
+          <p>
+            The public site should stay clean on the homepage, while technical diligence can expand
+            into a deeper technology page or data room.
+          </p>
+        </header>
+
+        <div class="three-up">
+          <article class="dark-card">
+            <h3>Actuation</h3>
+            <p>Bilateral linear actuation and motorized angular control create the mechanical basis for controlled traction.</p>
+          </article>
+          <article class="dark-card">
+            <h3>Sensing</h3>
+            <p>Load-cell force sensing and inertial measurement convert device state into actionable feedback.</p>
+          </article>
+          <article class="dark-card">
+            <h3>Control</h3>
+            <p>Closed-loop logic supports smoother adjustment and reduces uncontrolled overshoot in the prototype architecture.</p>
+          </article>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <strong>3</strong>
+            <span>primary controlled dimensions: force, yaw, pitch</span>
+          </div>
+          <div class="stat">
+            <strong>1</strong>
+            <span>central user interface for live procedural status</span>
+          </div>
+          <div class="stat">
+            <strong>OR</strong>
+            <span>design language centered on surgical integration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="section-kicker">Evidence and status</p>
+          <h2>Prototype-stage development with proof-of-concept foundation.</h2>
+          <p>
+            The public site should communicate momentum without overstating clinical performance.
+            Keep the claim language disciplined and make the development stage explicit.
+          </p>
+        </header>
+
+        <div class="status-grid">
+          <div class="status-card">
+            <span class="status-dot status-blue"></span>
+            <h3>Prototype</h3>
+            <p>Use this instead of commercial-ready language.</p>
+          </div>
+          <div class="status-card">
+            <span class="status-dot status-purple"></span>
+            <h3>Proof-of-concept</h3>
+            <p>Reference the research, but avoid clinical superiority claims.</p>
+          </div>
+          <div class="status-card">
+            <span class="status-dot status-green"></span>
+            <h3>Pre-commercial</h3>
+            <p>Clear enough for surgeons, conservative enough for regulatory review.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact">
+        <div class="split-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Start the conversation.</h2>
+            <p class="section-text">
+              For clinical collaboration, strategic partnerships, and investor discussions following the summit.
+            </p>
+
+            <div class="mini-grid">
+              <div class="spec">
+                <strong>Surgeons</strong>
+                <span>Workflow review and clinical feedback.</span>
+              </div>
+              <div class="spec">
+                <strong>Investors</strong>
+                <span>Milestones, market, and development path.</span>
+              </div>
+              <div class="spec">
+                <strong>Partners</strong>
+                <span>Prototyping, manufacturing, and validation.</span>
+              </div>
+              <div class="spec">
+                <strong>Summit follow-up</strong>
+                <span>A clean path after first contact.</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" onsubmit="return false;">
+            <label>
+              <span>Name</span>
+              <input type="text" placeholder="Your name" />
+            </label>
+
+            <label>
+              <span>Organization</span>
+              <input type="text" placeholder="Hospital, fund, or company" />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" placeholder="name@domain.com" />
+            </label>
+
+            <label>
+              <span>Interest</span>
+              <input type="text" placeholder="Clinical / investor / partnership" />
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea placeholder="Tell us what you are looking for."></textarea>
+            </label>
+
+            <button class="btn btn-dark btn-full" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-
-      <p>
-        © 2026 K
-      </p>
-
-      <div class="footer-links">
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-        <a href="#">X</a>
+    <div class="wrap footer-row">
+      <div>
+        <strong>U-TRAX</strong><br />
+        Precision skeletal traction platform
       </div>
-
+      <div>Problem · Platform · Workflow · Evidence · Contact</div>
+    </div>
+    <div class="wrap footer-fineprint">
+      Information presented on this site is intended for professional discussion only. U-TRAX is
+      currently under development and is not presented here as a cleared or approved commercial
+      product. Copy and visuals should be reviewed before public launch.
     </div>
   </footer>
-
 </body>
 </html>
-
